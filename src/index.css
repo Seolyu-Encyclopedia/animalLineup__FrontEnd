@@ -1,9 +1,40 @@
 @font-face {
-  font-family: 'insungitCutelivelyjisu';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/insungitCutelivelyjisu.woff2')
-    format('woff2');
+  font-family: "insungitCutelivelyjisu";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/insungitCutelivelyjisu.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
+}
+
+:root {
+  font-size: 24px;
+
+  /* color */
+  --seolyu-animal-lineup-white: rgb(255, 255, 255);
+  --seolyu-animal-lineup-white-opacity: rgba(255, 255, 255, 0.733);
+  --seolyu-animal-lineup-gray: rgba(128, 128, 128, 0.507);
+  --seolyu-animal-lineup-black: rgb(0, 0, 0);
+  --seolyu-animal-lineup-pink: #f44d9e;
+  --seolyu-animal-lineup-pink-opacity: #f870a0c7;
+  --seolyu-animal-lineup-light-pink: #e86e96;
+  --seolyu-animal-lineup-light-pink-opacity: #e86e9741;
+  --seolyu-animal-lineup-neon-pink: #ff00ff;
+  --seolyu-animal-lineup-yellow: #feb872;
+  --seolyu-animal-lineup-green: #0e8726;
+  --seolyu-animal-lineup-green-opacity: rgba(140, 219, 65, 0.685);
+  --seolyu-animal-lineup-mint: #b0e0e6;
+  --seolyu-animal-lineup-skyblue: #87cefa;
+  --seolyu-animal-lineup-purple: #af699e;
+  --seolyu-animal-lineup-silver: linear-gradient(
+    to right,
+    #cececedc,
+    #dae0dad7
+  );
+  --seolyu-animal-lineup-silver-shadow: rgba(126, 125, 125, 0.712);
+  --seolyu-animal-lineup-postit-1: #db0f75c9;
+  --seolyu-animal-lineup-postit-2: #33b4c5bd;
+  --seolyu-animal-lineup-postit-3: #f55e90d0;
+  --seolyu-animal-lineup-postit-4: #e7872cd3;
 }
 
 body {
@@ -14,36 +45,13 @@ body {
     linear-gradient(rgba(252, 235, 205, 0.5) 2px, transparent 2px),
     linear-gradient(90deg, rgba(252, 235, 205, 0.5) 2px, transparent 2px);
   background-size: 60px 60px;
-  font-family: 'insungitCutelivelyjisu';
+  font-family: "insungitCutelivelyjisu";
 }
 
 input {
-  font-family: 'insungitCutelivelyjisu';
+  font-family: "insungitCutelivelyjisu";
 }
 
 button {
-  font-family: 'insungitCutelivelyjisu';
-}
-
-.App {
-  width: 100%;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 20fr 1fr;
-  grid-template-rows: 1fr 20fr 1fr;
-  grid-template-areas:
-    '. logo .'
-    '. diary .'
-    '. . .';
-}
-
-header {
-  grid-area: logo;
-}
-
-main {
-  display: grid;
-  grid-area: diary;
-  justify-items: center;
-  align-items: center;
+  font-family: "insungitCutelivelyjisu";
 }

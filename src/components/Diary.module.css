@@ -1,0 +1,15 @@
+.Diary {
+  display: grid;
+  grid-area: Diary;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 25fr 1fr;
+  grid-template-rows: 2fr 20fr 2fr;
+  grid-template-areas:
+    "Rings . PostIts"
+    "Rings Paper PostIts"
+    "Rings . PostIts";
+  background: var(--seolyu-animal-lineup-green-opacity);
+  box-shadow: 0 2px 5px var(--seolyu-animal-lineup-skyblue);
+  border-radius: 15px;
+}

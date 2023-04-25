@@ -1,0 +1,84 @@
+.PostIts {
+  display: grid;
+  grid-area: PostIts;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.4fr;
+  grid-template-areas:
+    "."
+    "PostIt1"
+    "PostIt2"
+    "PostIt3"
+    "PostIt4"
+    "."
+    "LoginLogout"
+    "MyPage"
+    ".";
+  width: 100%;
+  height: 100%;
+}
+
+.PostIt {
+  display: grid;
+  grid-area: PostIt;
+  width: 220%;
+  height: 100%;
+  margin-top: 160%;
+  z-index: 1;
+}
+
+.PostIt1 {
+  grid-area: PostIt1;
+}
+
+.PostIt2 {
+  grid-area: PostIt2;
+}
+
+.PostIt3 {
+  grid-area: PostIt3;
+}
+
+.PostIt4 {
+  grid-area: PostIt4;
+}
+
+.LoginLogout {
+  grid-area: LoginLogout;
+}
+
+.MyPage {
+  grid-area: MyPage;
+}
+
+.Index {
+  width: 100%;
+  height: 60%;
+  border-radius: 0px 9px 9px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Index1 {
+  background-color: var(--seolyu-animal-lineup-postit-1);
+}
+
+.Index2 {
+  background-color: var(--seolyu-animal-lineup-postit-2);
+}
+
+.Index3 {
+  background-color: var(--seolyu-animal-lineup-postit-3);
+}
+
+.Index4 {
+  background-color: var(--seolyu-animal-lineup-postit-4);
+}
+
+.Index5 {
+  background-color: var(--seolyu-animal-lineup-pink-opacity);
+}
+
+.Index6 {
+  background-color: var(--seolyu-animal-lineup-pink-opacity);
+}
