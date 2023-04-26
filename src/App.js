@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setShowLaunchScreen(false);
-    }, 3000);
+    }, 30);
   }, []);
 
   return (
@@ -21,6 +21,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Desk />} />
+            <Route path="/diary/:selectedPaper" element={<Desk />} />
           </Routes>
         </BrowserRouter>
       )}
