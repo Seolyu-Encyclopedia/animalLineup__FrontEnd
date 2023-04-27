@@ -1,9 +1,8 @@
-import React from "react";
-import { useNavigate, useParams } from "react-router-dom";
-import styles from "./Diary.module.css";
-import Rings from "./Rings";
-import Paper from "./Paper";
-import PostIts from "./PostIts";
+import React from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+import styles from './Diary.module.css';
+import PostIts from './PostIts';
+import InnerDiary from './InnerDiary';
 
 function Diary() {
   const navigate = useNavigate();
@@ -15,8 +14,7 @@ function Diary() {
 
   return (
     <div className={styles.Diary}>
-      <Rings />
-      <Paper selectedPaper={selectedPaper} />
+      <InnerDiary selectedPaper={selectedPaper} />
       <PostIts handlePostItClick={handlePostItClick} />
     </div>
   );

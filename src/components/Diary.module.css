@@ -3,12 +3,11 @@
   grid-area: Diary;
   justify-items: center;
   align-items: center;
-  grid-template-columns: 1fr 25fr 1fr;
-  grid-template-rows: 2fr 20fr 2fr;
+  grid-template-columns: 26fr 1fr;
+  grid-template-rows: 22fr 2fr;
   grid-template-areas:
-    'Rings . PostIts'
-    'Rings Paper PostIts'
-    'Rings . PostIts';
+    'InnerDiary PostIts'
+    'InnerDiary PostIts';
   background: var(--seolyu-animal-lineup-diary);
   box-shadow: 0 2px 5px var(--seolyu-animal-lineup-skyblue);
   border-radius: 15px;

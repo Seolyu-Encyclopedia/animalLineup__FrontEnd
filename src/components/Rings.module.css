@@ -17,9 +17,9 @@
 .Hole {
   display: grid;
   grid-area: ring;
-  width: 120%;
+  width: 200%;
   height: 100%;
-  margin-left: 35%;
+  margin-left: -110%;
   display: flex;
   align-items: center;
   z-index: 1;
@@ -46,7 +46,7 @@
 }
 
 .Ring {
-  width: 100%;
+  width: 150%;
   height: 25%;
   background: var(--seolyu-animal-lineup-ring);
   border-radius: 50px;

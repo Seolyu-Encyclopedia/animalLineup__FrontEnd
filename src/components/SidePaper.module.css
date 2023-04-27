@@ -1,5 +1,5 @@
-.Paper {
-  grid-area: Paper;
+.SidePaper {
+  grid-area: SidePaper;
   background-color: var(--seolyu-animal-lineup-paper);
   width: 100%;
   height: 100%;
