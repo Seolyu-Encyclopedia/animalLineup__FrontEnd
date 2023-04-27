@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "insungitCutelivelyjisu";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/insungitCutelivelyjisu.woff2")
-    format("woff2");
+  font-family: 'insungitCutelivelyjisu';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/insungitCutelivelyjisu.woff2')
+    format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,28 +30,42 @@
     #cececedc,
     #dae0dad7
   );
-  --seolyu-animal-lineup-silver-shadow: rgba(126, 125, 125, 0.712);
+  --seolyu-animal-lineup-desk: #f9f580;
+  --seolyu-animal-lineup-desk-check: #88d7e4cc;
+  --seolyu-animal-lineup-diary: rgba(86, 195, 55, 0.448);
+  --seolyu-animal-lineup-paper: rgba(241, 252, 241, 0.866);
+  --seolyu-animal-lineup-ring: linear-gradient(to right, #cececedc, #dae0dad7);
+  --seolyu-animal-lineup-ring-shadow: rgba(126, 125, 125, 0.712);
   --seolyu-animal-lineup-postit-1: #db0f75c9;
   --seolyu-animal-lineup-postit-2: #33b4c5bd;
   --seolyu-animal-lineup-postit-3: #f55e90d0;
   --seolyu-animal-lineup-postit-4: #e7872cd3;
+  --seolyu-animal-lineup-postit-5: #fff700c5;
+  --seolyu-animal-lineup-postit-6: #ffc0cbc8;
 }
 
 body {
   margin: 0;
-  background-color: #ffe75f;
-  background-image: linear-gradient(rgba(255, 0, 0, 0.5) 2px, transparent 2px),
-    linear-gradient(90deg, rgba(255, 0, 0, 0.5) 2px, transparent 2px),
+  background-color: var(--seolyu-animal-lineup-desk);
+  background-image: linear-gradient(
+      var(--seolyu-animal-lineup-desk-check) 2px,
+      transparent 2px
+    ),
+    linear-gradient(
+      90deg,
+      var(--seolyu-animal-lineup-desk-check) 2px,
+      transparent 2px
+    ),
     linear-gradient(rgba(252, 235, 205, 0.5) 2px, transparent 2px),
     linear-gradient(90deg, rgba(252, 235, 205, 0.5) 2px, transparent 2px);
   background-size: 60px 60px;
-  font-family: "insungitCutelivelyjisu";
+  font-family: 'insungitCutelivelyjisu';
 }
 
 input {
-  font-family: "insungitCutelivelyjisu";
+  font-family: 'insungitCutelivelyjisu';
 }
 
 button {
-  font-family: "insungitCutelivelyjisu";
+  font-family: 'insungitCutelivelyjisu';
 }

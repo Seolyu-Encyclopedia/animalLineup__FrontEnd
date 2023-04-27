@@ -3,13 +3,13 @@
   grid-area: Rings;
   grid-template-rows: 2fr 1fr 1fr 5fr 1fr 1fr 2fr;
   grid-template-areas:
-    "."
-    "Hole1"
-    "Hole2"
-    "."
-    "Hole3"
-    "Hole4"
-    ".";
+    '.'
+    'Hole1'
+    'Hole2'
+    '.'
+    'Hole3'
+    'Hole4'
+    '.';
   width: 100%;
   height: 100%;
 }
@@ -48,7 +48,7 @@
 .Ring {
   width: 100%;
   height: 25%;
-  background: var(--seolyu-animal-lineup-silver);
+  background: var(--seolyu-animal-lineup-ring);
   border-radius: 50px;
-  box-shadow: 3px 3px 3px 2px var(--seolyu-animal-lineup-silver-shadow);
+  box-shadow: 3px 3px 3px 2px var(--seolyu-animal-lineup-ring-shadow);
 }
